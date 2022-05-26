@@ -167,6 +167,11 @@ console.log(randomNumbers(5, 33));
 // 5. Дан массив arr. Найдите среднее арифметическое его элементов.
 // Проверьте задачу на массиве с элементами 12, 15, 20, 25, 59, 79.
 
+/**
+ * 
+ * @param {array} array 
+ * @returns {number}
+ */
 function findArithmeticNumber(array) {
   if (arr.length === 0) {
     return 0;
